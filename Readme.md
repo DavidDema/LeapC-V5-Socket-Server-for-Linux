@@ -2,13 +2,14 @@
 
 ## Introduction
 
-This documentation explains how retrieve data from the Ultraleap3Di using the LeapC Library V5 with Python Client using a Polling server in C. The connection with the Python script is enabled with a Socket connection. The desired client language does not need to be Python, as long as it supports sockets.
+This documentation contains an implementation of a socket server for Linux using the LeapC V5 library. The server retrieves hand pose data using the Ultraleap3Di Motion controller. The code for the server is written in C and the example client is written in Python. The desired client programming language does not need to be Python, as long as it supports sockets.
 
 ## Prerequisites
 This documentation was tested with the following system specifications:
 - Ubuntu 22.04.2 LTS (64 bit)
 - Ultraleap 3Di (Stereo Hand-tracking Camera)
 - Python 3.10.6
+- LeapC V5.6.3 Gemini
 
 First you need to install the Leap drivers and library using the instruction on their website for the fifth version of the LeapC library, called Gemini.
 
